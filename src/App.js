@@ -11,6 +11,7 @@ function App() {
   const keys = ["status", "lastName", "firstName", "idsid", "wwid", "member", "fullName"]
 
   // A function that filters the items
+  // This function needs to get the Active Directory 
   const search = (data) => {
     // problem: need to connect to active directory groups.
     // how to do that?
